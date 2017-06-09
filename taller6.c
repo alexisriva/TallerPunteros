@@ -31,7 +31,7 @@ void desglosarFecha(char *fecha) {
 
 int * direccionElemento(int *enteros, int elemento, int tamano) {
 	int i;
-	int *direccion;
+	int *direccion = NULL;
 	for(i=0;i<tamano;i++){
 		if (*enteros==elemento){
 			*direccion = *enteros;
